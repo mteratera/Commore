@@ -3,11 +3,11 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
-        // Commore Brand Colors
         forest: {
           DEFAULT: "#2D3A2E",
           dark: "#1F2A20",
